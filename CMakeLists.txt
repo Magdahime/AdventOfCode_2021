@@ -3,7 +3,7 @@ project(aoc_magdy C CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -O3")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -g")
 
 set(SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/src/)
 set(HEADER_DIR ${CMAKE_CURRENT_LIST_DIR}/include/)
@@ -13,6 +13,7 @@ set(PROJECT_SOURCES
     ${SOURCE_DIR}/day1.cc
     ${SOURCE_DIR}/day2.cc
     ${SOURCE_DIR}/day3.cc
+    ${SOURCE_DIR}/day4.cc
 )
 
 
