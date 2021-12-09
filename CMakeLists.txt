@@ -15,6 +15,7 @@ set(PROJECT_SOURCES
     ${SOURCE_DIR}/day3.cc
     ${SOURCE_DIR}/day4.cc
     ${SOURCE_DIR}/day5.cc
+    ${SOURCE_DIR}/day6.cc
 )
 
 
