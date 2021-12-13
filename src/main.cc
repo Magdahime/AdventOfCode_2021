@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ostream>
 #include <stdlib.h>
 #include <string>
 #include <vector>
@@ -10,6 +11,7 @@
 #include "day5.hpp"
 #include "day6.hpp"
 #include "day7.hpp"
+#include "day8.hpp"
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
@@ -25,9 +27,11 @@ int main(int argc, char *argv[]) {
   // std::cout << getWorstBingoTable(elements) << "\n";
   // std::cout << getDangerousZones(elements) << "\n";
   // for(auto i = 0; i<=256; ++i){
-  // std::cout << i<<'\t'<< getNumberOfFishes(elements, i) << "\n";  
+  // std::cout << i<<'\t'<< getNumberOfFishes(elements, i) << "\n";
   // }
   // std::cout << getNumberOfFishes(elements, 80) << "\n";
   // std::cout << getNumberOfFishes(elements, 256) << "\n";
-   std::cout << getNewFuelAmount(elements) << "\n";
+  // std::cout << getNewFuelAmount(elements) << "\n";
+  // std::cout << countSimplestDigits(elements) << "\n";
+  std::cout << countDigits(elements) << "\n";
 }
