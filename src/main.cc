@@ -12,6 +12,7 @@
 #include "day6.hpp"
 #include "day7.hpp"
 #include "day8.hpp"
+#include "day9.hpp"
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
@@ -33,5 +34,5 @@ int main(int argc, char *argv[]) {
   // std::cout << getNumberOfFishes(elements, 256) << "\n";
   // std::cout << getNewFuelAmount(elements) << "\n";
   // std::cout << countSimplestDigits(elements) << "\n";
-  std::cout << countDigits(elements) << "\n";
+  std::cout << getSumOfLowPoints(elements) << "\n";
 }
